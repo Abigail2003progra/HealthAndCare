@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+:root{
+--negro:#000000;
+--blanco:#FFFFFF;
+--gris:#8D8D8D;
+--gris-claro:#F9F8F8;
+--gris-claro2:#C4C4C4;
+--piel:#F9EFCC;
+--verde:#A2FF58;
+--rojo:#CA4D3D;
+
+}
+section{
+    box-sizing: border-box;
+    width:  375px;
+    margin: auto;
+}
+/* parte WELCOME*/
+
+.caja-Welcome{
+    margin: auto;
+    width: 375px;
+    height: 667px;
+    background-color: var(--negro);
+    padding-top: 173px;
+    color: var(--blanco);
+}
+.titulo-welcome{
+    width: 206px;
+    height: 125px;
+    font-size: 65px;
+    margin: auto;
+}
+.corazon{
+    width: 34px;
+    height: 31px;
+    position:absolute;
+    margin-left: 170px;
+    margin-top: 52px;
+}
+.Bienvenida{
+    width: 255px;
+    height: 63px;
+    margin: auto;
+    text-align: center;
+    margin-top: 36px;
+}
+.Bienvenido{
+    font-size: 50px;
+}
+.deslizar{
+    font-size: 20px;
+}
+/*parte mensaje*/
+.caja-Mensaje{
+    margin: auto;
+    width: 375px;
+    height: 819px;
+    background-color: var(--negro);
+    padding-top: 114px;
+}
+.mensaje{
+    width: 283px;
+    height: 344px;
+    margin: auto;
+    font-size: 35px;
+    text-align: center;
+    color: var(--blanco);
+}
+.atentamente{
+    width: auto;
+    height: 60px;
+    margin-top: 45px;
+    margin-left: 180px;
+    margin-right: 60px;
+    text-align: right;
+    font-size: 20px;
+    color: var(--blanco);
+}
+.tocar{
+    width: 174px;
+    height: 25px;
+    margin: auto;
+    margin-top: 52px;
+    text-align: center;
+    color: var(--gris);
+}
+/*parte homepage*/
+.caja-homepage{
+    margin: auto;
+    width: 375px;
+    height: 667px;
+}
+.cabecera-homepage{
+    width: 375px;
+    height: 60px;
+    background-color: var(--blanco);
+    -webkit-box-shadow: 1px 8px 7px -3px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 8px 7px -3px rgba(0,0,0,1);
+    box-shadow: 1px 8px 7px -3px rgba(0,0,0,1);
+    font-size: 35px;
+    padding-top: 15px;
+}
+.titulo-homepage{
+    width: 235px;
+    height: 44px;
+    margin-left:46px;
+}
+.texto-homepage{
+    width: 283px;
+    height: 203px;
+    margin: auto;
+    margin-top: 16px;
+    font-size: 14px;
+}
+.PLS{
+    width: 283px;
+    height: 20px;
+    margin: auto;
+    font-size: 14px;
+}
+.SD{
+    width: 283px;
+    height: 20px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 64px;
+}
+.c-covid, .c-nutricion{
+    width: 283px;
+    height: 130px;
+    margin: auto;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+.c-covid{
+    background-image: url(../img/covid.png);
+}
+.c-nutricion{
+    background-image: url(../img/nutricion.png);
+}
+.T{
+    width: 258px;
+    height: auto;
+    font-size: 35px;
+    color: var(--blanco);
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.t{
+    font-size: 14px;
+    color: var(--blanco);
+    margin: auto;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 38px;
+}
+.ver-mas{
+    width: 258px;
+    height: auto;
+    font-size: 14px;
+    color: var(--blanco);
+    margin: auto;
+    padding-left: 25px;
+}
+.contador{
+    width: 283px;
+    height: 88px;
+    font-size: 35px;
+    margin: auto;
+    margin-top: 35px;
+}
+.casos-R, .recuperados{
+    width: 292px;
+    height: 110px;
+    margin: auto;
+    margin-top: 8px;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    background-color: var(--gris-claro);
+}
+.recuperados{
+    margin-top: 20px;
+}
+.Tcr{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.numeros{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+}
+.one{
+    width: 35px;
+    height: 45px;
+    background-color: var(--blanco);
+    margin-left: 10px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.date{
+    width: auto;
+    height: auto;
+    text-align: right;
+    margin-right: 11px;
+    margin-top: 4px;
+}
+.Fuente{
+    width: 283px;
+    height: 20px;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 14px;
+}
+.informesCadenas{
+    width: 283px;
+    height: 50px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 14px;
+}
+.restricciones-covid{
+    width: 282px;
+    height: 65px;
+    margin: auto;
+    margin-top: 15px;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    background-color: var(--gris-claro);
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 7px;
+}
+.links-homepage{
+    width: 283px;
+    height: 50px;
+    margin: auto;
+    margin-top: 14px;
+}
+.ingresar{
+    font-size: 14px;
+}
+.link1-homepage{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+/* parte covid home */
+.caja-covidHome{
+    margin: auto;
+    width: 375px;
+    height: 1250px;
+}
+.cabecera-covidHome{
+    width: 375px;
+    height: 60px;
+    background-image: url(../img/covid.png);
+    font-size: 35px;
+    padding-top: 15px;
+}
+.titulo-covidHome{
+    width: 235px;
+    height: 44px;
+    margin-left:46px;
+    color: var(--blanco)
+}
+.caja-piel{
+    width: 375px;
+    height: 400px;
+    background-color: var(--piel);
+}
+.texto-covidHome{
+    width: 284px;
+    height: 328px;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 28px;
+}
+.variante-c{
+    width: 161px;
+    height: 30px;
+    background-color: var(--verde);
+    margin-left: 46px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 5px;
+    -webkit-box-shadow: 0px 0px 17px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 17px -6px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 17px -6px rgba(0,0,0,0.75);
+}
+.test-covid{
+    width: 133px;
+    height: 25px;
+    font-size: 20px;
+    margin-top: 66px;
+    margin-left: 46px;
+}
+.txtest-covid{
+    width: 283px;
+    height: 72px;
+    margin: auto;
+    font-size: 14px;
+}
+.nota-covid{
+    width: 283px;
+    height: 54px;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.boton-test{
+    width: 185px;
+    height: 35px;
+    margin: auto;
+    background-color: var(--negro);
+    color: var(--blanco);
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 17px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 17px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 17px -6px rgba(0,0,0,0.75);
+    margin-top: 30px;
+}
+/* parte variantes */
+.caja-Variantes{
+    margin: auto;
+    width: 375px;
+    height: 1250px;
+}
+.cabecera-Variantes{
+    width: 375px;
+    height: 60px;
+    background-image: url(../img/covid.png);
+    font-size: 35px;
+    padding-top: 15px;
+}
+.titulo-Variantes{
+    width: 235px;
+    height: 44px;
+    margin-left:50px;
+    color: var(--blanco)
+}
+.covid-img{
+    width: 283px;
+    height: 155px;
+    background-image:url(../img/img-covid.jpg);
+    margin: auto;
+    margin-top: 20px;
+}
+.txt-variantes{
+    width: 281px;
+    height: 266px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.info-var{
+    width: 283px;
+    height: 150px;
+    background-color: var(--gris-claro2);
+    margin: auto;
+    font-size: 20px;
+}
+.txt-info-var{
+    width: auto;
+    height:auto;
+}
+.variable{
+    width: 283px;
+    height: 150px;
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.T-var{
+    width: 165px;
+    height: 25px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.t-var{
+    width: 263px;
+    height: 104px;
+    font-size: 10px;
+    margin: auto;
+}
+
+
+/*parte calculadora*/
+.caja-calculadora{
+    margin: auto;
+    width: 375px;
+    height: 707px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/a05a/07cb/80a16636c8c592c41a7622fdeab9a817?Expires=1633305600&Signature=aJE4DnaDNkKyl33-9zydix1SRqMCYCyRsWBYhley1VPkIg3s0xiBNoO7fcm5IuwtJ3yw6ZfTT~JQfblE3t4EfJuBjGdrI1QiQl8Uv0LU9kK38XNBkXeu5QrlMdS7~oAMzki3O2yZ-WalcrOhueeQUiYm7B5HzQCRRltpPaw7w1HnNg7n-R-6uzAGayg0Mb5RzEEJYq9wxyLhxJ29SulvcA4ole4YKkUkOp2WyZQ6tibfd9M1eYEZ3NyXkSk2aEdlYpR5mgJE1ijOTpQO9zaI81jsaHgskwhjxUaXCcNwmo-SQnOd7nM1dKEHHgtlAG~5K7f-TmB79~AH0FnSmvZGiw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    padding-top: 30px;
+}
+.equis-calculadora{
+    width: 30px;
+    height: 28px;
+    background-color: var(--blanco);
+    border-radius: 20px;
+    margin-left: 330px;
+    -webkit-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.75);
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2px;
+}
+.caja2-calculadora{
+    width: 325px;
+    height: 590px;
+    background-color: var(--blanco);
+    margin: auto;
+    border-radius: 10px;
+    -webkit-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.75);
+    padding-top: 10px;
+   
+}
+.Titulo-calculadora{
+    width: 217px;
+    height: 85px;
+    font-size: 15px;
+    color: var(--rojo);
+    margin: auto;
+    text-align: center;
+    
+}
+.personas{
+    width: auto;
+    height: 117px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction:row;
+}
+.persona-delgada, .persona-gorda{
+    width: 58px;
+    height: auto;
+    margin-left: 54px;
+}
+.persona-delgada{
+    background-color: var(--gris-claro2);
+}
+.persona-delgada-img, .persona-gorda-img{
+    width:auto;
+    height: 117px;
+}
+.persona-gorda{
+    margin-left: 107px;
+}
+.caja-imc{
+    width: 257px;
+    height: 94px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 10px;
+    padding-top: 14px;
+}
+.convertir-lbkg, .calcular-imc{
+    width: 217px;
+    height: 15px;
+    margin: auto;
+    font-size: 14px;
+}
+.formula-imc{
+    width: 217px;
+    height: 14px;
+    font-size: 11px;
+    margin: auto;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <section class="caja-calculadora">
+        <a href="Nutricion.html"><div class="equis-calculadora"><img class="Equis-calculadora-img" src="https://s3-alpha-sig.figma.com/img/412d/91b4/1d6e15649d7bdc785af6396c15505161?Expires=1634515200&Signature=VE0sjXA7vtxGLkHy-yJyNHjjCjJjxqgYLPh4APFRam0H7COBKHulAP1NbTRYELWv2eT5i49hFI63s6tT7i86OzMbB9-lO7g2PsZdx3nuBb-VEpQs5lHP0b0p9JZolWGlojI02IJpxkd0R19MEOEZxbEH61BO-oBlqLQzGuAaZkFLmtsb8OMNk~qhZ8ZcPN89qngXWlRorjexSNWYC3WbvLe2MjNsm9grIwsg2lgMbJZDiLwi-4xOGVvJT5qkmPFBEyYYq972JMWFfGUMTw1N9kxuoTJYturO21ryLYMWgrlPaBeqH8ic0oNZmsdlVGbPAbCrCKrf6bWNN~~-Ap~U0Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt=""></div></a>
+        <div class="caja2-calculadora">
+            <div class="Titulo-calculadora"><h1>Descubre el índice de masa corporal que posees</h1></div>
+            <div class="personas">
+                <a href="Nutricion.html"><img class="arrow-Calculadora" src="https://s3-alpha-sig.figma.com/img/2eb1/d1de/e3835f20f223ee203da671c3bc826a3d?Expires=1634515200&Signature=Eh8IJwMlEfrQmFiJCFQqH6pPbJ~M3HZDoSQNUiFSkl40SNVx23DTOD4HJmv1rXMskxiw6u51qLNsUtgrVehZACrILxbNKjJI8HnRLVUuVfQF-SpjlOKxmdGcyH7SFbjSqQBZuVZvkKeKd~-yLqh4quH2rWuOJYMbbaUUcrNn~GTV1jxQzMzQ2PzquL2ymiKOzb8gRpVRjjZlI~RzWlyGKwFud7rJ4j~iGbMtYbU~yZNYvLHE7Ql~VhpP1xRsYBf3iuSSwSDxUNoIwNeMUxa8ZVyXI3VjBXv2Q7Kxs~gff6esQ9b6LxZ4APFnh7WmOwg~4xoMrOkpGf1WrPmoB3Hs4w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt=""></a>
+                <div class="persona-delgada"><img class="persona-delgada-img" src="https://s3-alpha-sig.figma.com/img/4b12/af85/7852f4d67523215896e5acbe2957e601?Expires=1634515200&Signature=chax39gp5D-ArAyJ8KV-2ba8c1bmTYI~~-~XL19-tiLatqhaQRILBYd8Iy7D1COSDgajSjoBeXXBLhqhJdwSMOgFr6BwsrfE9Vi0mouHiuYpLgGQHso44PBf1PG2QAhGF288jXFcXxD-~yJOpS8UcycFmD-4mGFH3goapLtMPkK3koVqEL1crks6NrQhmAPVDQVuUXPLFTHKXo5T75XuXIXuJa1BGM9bAAnYfa0g1mKlgSczJx~V2CvLfr9PiYPRgOB4ZNZMTs0Ifnt1G0eiJwUnCdijU1KW8HPCgeCzYZ5cTvKpTMczQzI4T0eeHApQxfqMzClcSQsvF5AlnI9K-Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt=""></div>
+                <div class="persona-gorda"><img class="persona-gorda-img" src="https://s3-alpha-sig.figma.com/img/c103/4d7e/020631c21439da67673e3cafc03fdac2?Expires=1634515200&Signature=ReMxgH45CBPsj1jo8Su37Ljl6Myulp-yOvmiZEGvdiqPCa46aikTCcME0KOIKU~BAP7MMsNZOBi7wtyKwZa-NTwoEyW~hOcvZI34DCPqmeZ8CuBiidI3D07QLwKh77w6vXqOUBkvwUluEmZuyPQVUcwOlAQmgWM80GrDfVDbxeFgKCf6qjh5WXF1xxlrcp5Q8LttPccBRes5PiR8OHGtoP3I2mL~cGKKLjxFdXD8zXdTRJXq5BBbvf96sCqprsB7e3H3p4MCfcco4R-rNOPSe-kM8eTDX9SO785VkOUl3f5Z7Z7NR6vU87a0oGn6RzTwk3m7UjIrMnJ5JXrdePXSaA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt=""></div>
+            </div>
+        <div class="caja-imc">
+            <div class="convertir-lbkg"><p>Convierte tu peso en lb a kg </p>
+                <div class="cajas-nombre">
+                     <form class="calculadora" id="inputFormulario">
+                                <label for="libras">
+  
+                    <input
+                    type="number"
+                    style="width:50px"
+                    step="0.001"
+                    class="input-lbs" 
+                    name="libras" 
+                    placeholder="Ej. 90"
+                    id="inputLibras">
+                </label>
+                    
+                    <img class="flecha-lbkg" src="https://s3-alpha-sig.figma.com/img/2eb1/d1de/e3835f20f223ee203da671c3bc826a3d?Expires=1634515200&Signature=Eh8IJwMlEfrQmFiJCFQqH6pPbJ~M3HZDoSQNUiFSkl40SNVx23DTOD4HJmv1rXMskxiw6u51qLNsUtgrVehZACrILxbNKjJI8HnRLVUuVfQF-SpjlOKxmdGcyH7SFbjSqQBZuVZvkKeKd~-yLqh4quH2rWuOJYMbbaUUcrNn~GTV1jxQzMzQ2PzquL2ymiKOzb8gRpVRjjZlI~RzWlyGKwFud7rJ4j~iGbMtYbU~yZNYvLHE7Ql~VhpP1xRsYBf3iuSSwSDxUNoIwNeMUxa8ZVyXI3VjBXv2Q7Kxs~gff6esQ9b6LxZ4APFnh7WmOwg~4xoMrOkpGf1WrPmoB3Hs4w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt=""><label for="" class="resultado" id="resultado"><input style="width:50px"></label>
+                    <button>Calcular</button>
+                    </form>
+            </div>
+            </div>
+        </div>
+        <div class="caja-imc">
+            <div class="calcular-imc"><p>Calcula tu IMC aquí</p></div>
+            <div class="formula-imc"><p>Fórmula: peso ( kg ) /altura ( m )</p>
+                <div class="cajas-nombre">
+                    
+                    
+                    <form action="">
+                <label>Peso:</label> <input type="text"  style="width:40px" id="txtPeso">
+                        <label>Altura:</label> <input type="text"  style="width:40px" id="txtAltura">
+                <button id="btnCalcular" type="button">Calcular</button>
+                    </form>
+                        
+                </div>
+            </div>
+        </div>
+        <a href="DebajoDePeso.html" style="text-decoration: none"><div class="Ver-resultado">Ver Categorías</div>
+            <script>
+            window.onload = iniciar;
+
+    
+
+    function iniciar() {
+      btnCalcular = document.getElementById("btnCalcular");
+      btnCalcular.addEventListener("click", clickBtnCalcular);
+    }
+
+    function clickBtnCalcular() {
+      var txtPeso = document.getElementById('txtPeso');
+      var peso = txtPeso.value;
+
+      var txtAltura = document.getElementById('txtAltura');
+      var altura = txtAltura.value;
+
+      var imc = peso / (altura * altura);
+      swal("El IMC es: " + Math.round (imc));
+            
+    }
+            </script>
+    </a>
+        </div></section>
+     <script src="script.js"></script>
+    
+    
+</body>
+</html>
